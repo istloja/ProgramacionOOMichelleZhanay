@@ -17,6 +17,10 @@ public class Ejecutar {
         System.out.println(objetoanimal.informacionAnimal());
         System.out.println(objetoanimal2.informacionAnimal());
         System.out.println(objetoanimal3.informacionAnimal());
+        objetoanimal.alimentarse();
+        objetoanimal2.alimentarse();
+        objetoanimal3.alimentarse();
+        
     }
    
             
