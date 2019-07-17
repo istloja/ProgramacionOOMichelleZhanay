@@ -14,9 +14,11 @@ public class Ejecutar {
         Animal objetoanimal=new Animal ("perro", 20, 50, "blanco", 6);
         Ave objetoanimal2 = new Ave ("Carroña", "area","buitre", 8, 50, "negro", 5);
         Mamifero objetoanimal3 = new Mamifero("Bipedo", true, "Canguro", 30, 1.80,"Cafe", 20);
+        
         System.out.println(objetoanimal.informacionAnimal());
         System.out.println(objetoanimal2.informacionAnimal());
         System.out.println(objetoanimal3.informacionAnimal());
+        
         objetoanimal.alimentarse();
         objetoanimal2.alimentarse();
         objetoanimal3.alimentarse();
