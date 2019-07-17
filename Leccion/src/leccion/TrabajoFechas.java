@@ -15,6 +15,11 @@ public class TrabajoFechas {
     public static void main(String[] args) {
         Date fecha = new Date();
         System.out.println(fecha);
+        System.out.println("Year:"+ (fecha.getYear()+1900));
+        System.out.println("Month:"+fecha.getMonth());
+        System.out.println("Day:"+fecha.getDay());
+        System.out.println("Hour:"+fecha.getHours());
+       
     }
     
 }
