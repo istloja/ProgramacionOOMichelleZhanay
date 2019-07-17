@@ -3,16 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package convertor;
+package conversor;
 
 /**
  *
  * @author LENOVO
  */
-public class Hec extends Conversor{
-     public double CalcularM_hec(double cant1){
-        conv=cant1/100;
+public class mm extends Conversor {
+    public double CalcularM_mm(double cant5){
+        conv=cant5*1000;
         return (conv);
     }
-    
 }

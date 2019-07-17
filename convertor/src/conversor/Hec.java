@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package convertor;
+package conversor;
 
 /**
  *
  * @author LENOVO
  */
-public class deci extends Conversor  {
-    public double CalcularM_deci(double cant3){
-        conv=cant3*10;
+public class Hec extends Conversor{
+     public double CalcularM_hec(double cant1){
+        conv=cant1/100;
         return (conv);
     }
     

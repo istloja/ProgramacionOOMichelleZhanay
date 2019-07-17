@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package convertor;
+package conversor;
 
 /**
  *
  * @author LENOVO
  */
-public class Km extends Conversor {
-    public double CalcularM_Km(double cant){
-        conv=cant/1000;
+public class cm extends Conversor {
+     public double CalcularM_cm(double cant4){
+        conv=cant4*100;
         return (conv);
     }
+    
     
 }

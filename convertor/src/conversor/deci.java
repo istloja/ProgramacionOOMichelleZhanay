@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package convertor;
+package conversor;
 
 /**
  *
  * @author LENOVO
  */
-public class mm extends Conversor {
-    public double CalcularM_mm(double cant5){
-        conv=cant5*1000;
+public class deci extends Conversor  {
+    public double CalcularM_deci(double cant3){
+        conv=cant3*10;
         return (conv);
     }
+    
 }
